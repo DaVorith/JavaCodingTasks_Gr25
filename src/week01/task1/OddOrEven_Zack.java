@@ -22,6 +22,7 @@ public class OddOrEven_Zack {
      */
     public  static  String  identifyOddEven(int number) {
         return  number%2==0 ? "Even" : "odd" ;
+
     }
 
 }
