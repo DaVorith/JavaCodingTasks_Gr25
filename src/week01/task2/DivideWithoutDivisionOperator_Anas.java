@@ -7,7 +7,7 @@ public class DivideWithoutDivisionOperator_Anas {
      Write a method that can divide two numbers without using division operator
      */
      public static void main(String[] args) {
-         System.out.println(num(0,6));
+         System.out.println(num(0,4));
      }
     public static int num(int num1, int num2){
 
