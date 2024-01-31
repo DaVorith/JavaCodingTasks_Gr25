@@ -1,13 +1,13 @@
 package week01.task2;
 
-public class DivideWithoutDivisionOperator_Zack {
+public class DivideWithoutDivisionOperator_Anas {
 
      /*
      Numbers - Divide without / operator:
      Write a method that can divide two numbers without using division operator
      */
      public static void main(String[] args) {
-         System.out.println(num(1,0));
+         System.out.println(num(0,6));
      }
     public static int num(int num1, int num2){
 

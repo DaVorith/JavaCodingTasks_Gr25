@@ -1,8 +1,6 @@
 package week01.task3;
 
-import java.util.Arrays;
-
-public class FINRA_Zack {
+public class FINRA_Anas {
 
     /*
      Write a function which prints out the numbers from 1 to 30 but for numbers which are a multiple of 3,

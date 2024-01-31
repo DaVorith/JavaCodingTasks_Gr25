@@ -2,7 +2,7 @@ package week01.task1;
 
 import java.util.Scanner;
 
-public class OddOrEven_Zack {
+public class OddOrEven_Anas {
 
     /*
      Numbers - Odd or even:
@@ -24,10 +24,12 @@ public class OddOrEven_Zack {
     }
     public static String oddOReven(int num){
 
-    if (num%2 == 0)
-        return "even";
-    else
-        return "odd";
+//    if (num%2 == 0)
+//        return "even";
+//    else
+//        return "odd";
+
+    return (num%2 == 0)? "even" : "odd";
 
     }
 
