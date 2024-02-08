@@ -16,6 +16,7 @@ public class OddOrEven_Mermina {
 
 
 
+
     }
 }
    /* Write a method that can identify  a given number is even or odd.
