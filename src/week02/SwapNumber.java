@@ -1,4 +1,4 @@
-package wqeek02;
+package week02;
 
 public class SwapNumber {
     public static void main(String[] args) {
