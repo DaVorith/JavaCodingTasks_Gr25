@@ -1,4 +1,4 @@
-package week2.task2;
+package week02.task2;
 
 public class DivisibleBy3And5And15_Fatih {
 
