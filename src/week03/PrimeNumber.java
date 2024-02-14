@@ -1,30 +1,40 @@
 package week03;
 
 public class PrimeNumber {
-    public static void main(String[] args) {
-        int number = 17;
-        if (isPrime(number)) {
-            System.out.println(number + " is a prime number.");
-        } else {
-            System.out.println(number + " is not a prime number.");
-        }
+//
+public static boolean isPrime(int number) {
+    // 1 and numbers less than 1 are not prime
+    if (number <= 1) {
+        return false;
     }
-    public static boolean isPrime(int number) {
-        if (number <= 1) {
+
+    // Check for divisibility by numbers up to the square root of the number
+    for (int i = 2; i <= Math.sqrt(number); i++) {
+        if (number % i == 0) {
+            // If the number is divisible by any number other than 1 and itself, it's not prime
             return false;
         }
-        if (number <= 3) {
-            return true;
-        }
-
-
-        for (int i = 2; i <= Math.sqrt(number); i++) {
-            if (number % i == 0) {
-                return false;
-            }
-        }
-        return true;
     }
+
+    // If no divisors were found, the number is prime
+    return true;
+}
+
+    public static void main(String[] args) {
+        // Test cases
+        int num1 = 17;
+        System.out.println(num1 + " is prime: " + isPrime(num1)); // true
+
+        int num2 = 20;
+        System.out.println(num2 + " is prime: " + isPrime(num2)); // false
+
+        int num3 = 2;
+        System.out.println(num3 + " is prime: " + isPrime(num3)); // true
+
+        int num4 = 1;
+        System.out.println(num4 + " is prime: " + isPrime(num4)); // false
+    }
+
 }
 /*
 
