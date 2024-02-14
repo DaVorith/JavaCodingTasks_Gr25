@@ -1,6 +1,6 @@
 package week03.task1;
 
-public class PrimeNumber {
+public class PrimeNumber_Fatih {
 
     public static void main(String[] args) {
         System.out.println("isPrime(7) = " + isPrime(5));
