@@ -1,4 +1,4 @@
-package week03;
+package week03.task2;
 
 public class ReverseNegNum {
     public static void main(String[] args) {
