@@ -1,4 +1,4 @@
-package week2.task3;
+package week02.task3;
 
 public class ConsecutiveNumbers_Fatih {
 
