@@ -1,6 +1,7 @@
 package week03.task2;
 
 public class ReverseNegativeNumber_Fatih {
+    
     public static void main(String[] args) {
         System.out.println( reverse(-47));
     }
