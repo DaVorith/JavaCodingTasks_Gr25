@@ -1,6 +1,6 @@
 package week06.task3;
 
-public class String_SumOfAllDigits {
+public class String_SumOfAllDigits_Fatih {
 
     public static void main(String[] args) {
         String input = "9 cydeo 5 usa 3";
