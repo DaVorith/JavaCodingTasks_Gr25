@@ -25,9 +25,13 @@ public class Zack {
     public static int minValue_1( int[] numArr ) {
         int min = Integer.MAX_VALUE;
         for(int each: numArr)
+
             if(each < min)
-                min = each;
+              min = each;
+
         return min;
+
+
     }
 
 
