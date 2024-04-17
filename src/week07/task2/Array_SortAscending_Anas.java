@@ -13,9 +13,9 @@ public class Array_SortAscending_Anas {
                 for (int j = 0; j < arr.length - i - 1; j++) {
                     if (arr[j] > arr[j + 1]) {
 
-                        int elementAtIndex = arr[j];
+                        int elementAtIndexJ = arr[j];
                         arr[j] = arr[j + 1];
-                        arr[j + 1] = elementAtIndex;
+                        arr[j + 1] = elementAtIndexJ;
                     }
                 }
             }
